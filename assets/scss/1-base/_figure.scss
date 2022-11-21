@@ -1,0 +1,29 @@
+.figure {
+  border-style: solid;
+  border-width: thin;
+  border-color: $color-border-figure;
+  border-radius: $figure-border-radius;
+  filter: drop-shadow(3px 4px 6px rgba(128,128,128,.5));
+  img {
+    height: auto;
+    width: 100%;
+    border-top-left-radius: $figure-border-radius;
+    border-top-right-radius: $figure-border-radius;
+  }
+  .typography__figcaption {
+    color: $white;
+    background-color: $grey-6;
+    border-color: $color-border-figure;
+    border-style: solid;
+    border-width: thin;
+    border-bottom-left-radius: $figure-border-radius;
+    border-bottom-right-radius: $figure-border-radius;
+    font-family: $font-family-paragraph;
+    font-size: .95rem;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+  }
+}

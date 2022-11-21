@@ -1,0 +1,38 @@
+.nav-pills.nav-pills-outline .nav-link {
+  margin: 2px;
+}
+
+.nav-pills.nav-pills-outline .nav-link.active,
+.nav-pills.nav-pills-outline .show>.nav-link {
+  color: #007bff;
+  background-color: transparent;
+  border-color: #007bff;
+  border-style: solid;
+  border-width: 2px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.links__offset .modal {
+  pointer-events: auto;
+}
+
+.dt-button .material-icons {
+  vertical-align: middle;
+}
+
+.dt-buttons .dt-button {
+  background: transparent;
+  border-color: #007bff;
+  border-radius: .25rem;
+  color: #007bff;
+  font-family: $font-family-paragraph;
+  font-size: 1rem;
+}
+
+.dt-buttons .dt-button:hover,
+.dt-buttons .dt-button:active {
+  color: #fff;
+  background: #007bff !important;
+  background-color: #007bff !important;
+}

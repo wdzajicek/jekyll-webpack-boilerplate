@@ -1,0 +1,35 @@
+title: "Jekyll Webpack Boilerplate"
+url: 'https://www.kcc.edu/about' ## NO TRAILING SLASHES!!/<--nope
+port: 3000
+timezone: America/Chicago
+permalink: pretty
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+# Delete this comment and place description on this line
+baseurl: "" # the subpath of your site, e.g. /blog
+# include:
+#   - "_pages"
+#   - "_posts"
+
+# include future posts? (true or false)
+future: false
+# Build settings
+markdown: kramdown
+
+#include:
+  #- "_board_documents/"
+
+exclude:
+  - "node_modules"
+  - "npm-debug.log"
+  - "package.json"
+  - "package-lock.json"
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "webpack.config.js"
+  - "siteicon.png"
+  - "page-startups"
+  - "index.js"
+  - "postcss.config.js"
+  - "buildtools/"

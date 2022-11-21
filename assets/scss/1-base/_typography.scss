@@ -1,0 +1,72 @@
+// Typography styles (site specific)
+// ===============================
+
+$reboot-anchor-blue: #007bff;
+$reboot-hover-blue: #0056b3;
+
+a .typography__return {
+  fill: $reboot-anchor-blue;
+}
+
+a:hover .typography__return {
+  fill: $reboot-hover-blue;
+  text-decoration: underline;
+}
+
+.typography__table {
+  color: $grey-1;
+}
+
+.typography__sup--line-height {
+  line-height: 1;
+}
+
+.typography--thin {
+  font-weight: 400;
+  font-size: 90%;
+}
+
+.typography__span {
+  &--blue {
+    color: $primary-blue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  &--green {
+    color: #3cb248;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  &--cyan {
+    color: #00aeef;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  &--gold {
+    color: #fbb018;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  &--red-orange {
+    color: #c71f2e;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  &--purple {
+    color: #892565;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
+.typography__plan {
+  letter-spacing: -1px;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}

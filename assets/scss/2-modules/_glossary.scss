@@ -1,0 +1,12 @@
+
+@media screen and (min-width: 992px) {
+  .glossary {
+    column-count: 2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .glossary {
+    column-count: 3;
+  }
+}

@@ -1,0 +1,14 @@
+// Bootstrap 4's Clearfix mixin
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .clearfix--sm {
+    @include clearfix;
+  }
+}

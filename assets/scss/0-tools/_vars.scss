@@ -1,0 +1,62 @@
+//  VARIABLES
+// =============================
+
+// Fonts
+$font-family-paragraph: 'Open Sans', sans-serif;
+$font-family-headings: 'Roboto', sans-serif;
+$font-family-mono: 'Roboto Mono', monospace;
+$font-family-icons: 'Material Icons';
+
+$font-size-base: 1rem;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-boldish: 500;
+$font-weight-bolder: 600;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+
+//Image path for most of global style sheet
+$imagedir:'/assets/img/';
+
+// Colors
+$color-blue-light: #ccdde1;
+
+$black: #000;
+$grey-1: #666;
+$grey-2: #e5e8ed;
+$grey-3: #f1f2f7;            //  Background color for slick tracks
+$grey-4: #f8f9fa;            // Background color for footer (and Bootstrap 4 light navbar)
+$grey-5: #b1b1b1;            // Border-bottom for local-nav navigation bar
+$grey-6: #58585b;
+$grey-7: #868686;
+
+$white: #fff;
+
+$color-default-grey: $grey-1;
+$color-danger-red: #d13535;
+$color-danger-red-bg: #7c2121;
+
+$landing-bg: $grey-2;        // Landing page's background-color
+$default-bg: $white;        // Background color for non-landing pages
+$footer-bg: $white;         // Footer's background color
+$grey-heading: $grey-1;      // Grey headings used within page content
+$slide-bg: $white;            // Background color for the upcoming games slick slides
+$sub-nav-heading: $white;     // Font color for h1.page-heading heading of sub-nav
+$nav-link: $white;            // Color for nav-link-main links in mega-nav
+
+$color-bs-blue-link: #007bff;
+$color-bs-blue-link-hover: #0056b3;
+$color-bs-blue: $color-bs-blue-link;
+$color-bs-blue-hover: $color-bs-blue-link-hover;
+
+$btn-primary-bg: #0051a7;
+$btn-primary-border: #003773;
+$btn-hover-bg: #022b55;
+$btn-hover-border: #021e3d;
+$darker-link: #006ce0;
+$orange-heading: #f99e1b;
+
+$color-border-figure: rgba(128, 128, 128, .5);
+$figure-border-radius: 7px;

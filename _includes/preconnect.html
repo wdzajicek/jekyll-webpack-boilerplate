@@ -1,0 +1,11 @@
+<!-- preconnect to assets -->
+<!-- fonts -->
+<!-- Google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+{%- if page.include_gapi == true -%}
+<!-- Google API -->
+<link rel="preconnect" as="script" href="https://apis.google.com/js/api.js">
+{%- endif -%}
+<link rel="preconnect" as="script" href="{{page.baseurl}}assets/js/dist/main{% if site.data.hash %}.{{ site.data.hash }}{% endif %}.bundle.js">
+<!-- End of preconnects -->

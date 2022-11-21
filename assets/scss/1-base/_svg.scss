@@ -1,0 +1,25 @@
+.svg__mykcc {
+  display: inline-block;
+  height: 1.5rem;
+  width: 80px;
+  fill: $color-bs-blue;
+}
+
+a.svg__link--no-decoration:hover,
+a.svg__link--no-decoration:focus {
+  text-decoration: none;
+}
+
+a.svg__link--no-decoration:hover .svg__mykcc,
+a.svg__link--no-decoration:focus .svg__mykcc{
+  fill: $color-bs-blue-hover;
+}
+
+.svg__new-tab {
+  fill: $color-bs-blue-link;
+}
+
+a:hover .svg__new-tab,
+a:focus .svg__new-tab {
+  fill: $color-bs-blue-link-hover;
+}
